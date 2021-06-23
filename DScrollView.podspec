@@ -7,35 +7,41 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DScrollView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DScrollView.'
-
+    s.name             = 'DScrollView'
+    s.version          = '0.1.1'
+    s.summary          = 'DScrollView is UIScrollView in one line of code.'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-  'DscrollView is an awesome pod aimed to make yor life easier around UIScrollViews'
-            DESC
+s.description      = <<-DESC
+'DscrollView is an awesome pod aimed to make yor life easier around UIScrollViews.'
+                     DESC
+
   s.homepage         = 'https://github.com/SALIM-ALYASI/SecretsDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SALIM-ALYASI' => 'r.m.alyasi@gmail.com' }
   s.source           = { :git => 'https://github.com/SALIM-ALYASI/SecretsDemo.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.youtube.com/channel/UC0CEMuSzjYP_CNOi8BHxZIg'
-
   s.ios.deployment_target = '12.1'
 
   s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
-      ios: "12.1"
+      "ios": "12.1"
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'TinyConstraintsalyasi', '~> 5.0.0'
+# s.resource_bundles = {
+#   'DScrollView' => ['DScrollView/Assets/*.png']
+# }
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.frameworks = 'UIKit', 'MapKit'
+# s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'TinyConstraints', '~> 4.0.0'
 end
+
