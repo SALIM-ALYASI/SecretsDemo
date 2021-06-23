@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'الياسي والأمل' => 'r.m.alyasi@gmail.com' }
   s.source           = { :git => 'https://github.com/الياسي والأمل/DScrollView.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://youtube.com/rebeloper'
+  s.social_media_url = 'https://www.youtube.com/channel/UC0CEMuSzjYP_CNOi8BHxZIg'
 
   s.ios.deployment_target = '12.1'
 
@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'TinyConstraints', '~> 4.0.0'
+  s.dependency 'TinyConstraintsalyasi', '~> 4.0.0'
 end
