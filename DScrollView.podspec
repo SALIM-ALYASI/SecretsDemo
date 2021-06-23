@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/الياسي والأمل/DScrollView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'الياسي والأمل' => 'r.m.alyasi@gmail.com' }
-  s.source           = { :git => 'https://github.com/الياسي والأمل/DScrollView.git', :tag => s.version.to_s }
+  s.author           = { 'SALIM-ALYASI' => 'r.m.alyasi@gmail.com' }
+  s.source           = { :git => 'https://github.com/SALIM-ALYASI/SecretsDemo.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.youtube.com/channel/UC0CEMuSzjYP_CNOi8BHxZIg'
 
   s.ios.deployment_target = '12.1'
