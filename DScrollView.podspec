@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   'DscrollView is an awesome pod aimed to make yor life easier around UIScrollViews.'
             DESC
-  s.homepage         = 'https://github.com/الياسي والأمل/DScrollView'
+  s.homepage         = 'https://github.com/SALIM-ALYASI/SecretsDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'SALIM-ALYASI' => 'r.m.alyasi@gmail.com' }
