@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'DScrollView'
+    s.name             = 'DScroll'
     s.version          = '0.1.1'
     s.summary          = 'DScrollView is UIScrollView in one line of code.'
 # This description is used to generate tags and improve search results.
