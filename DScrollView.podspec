@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  'DscrollView is an awesome pod aimed to make yor life easier around UIScrollViews.'
+  'DscrollView is an awesome pod aimed to make yor life easier around UIScrollViews'
             DESC
   s.homepage         = 'https://github.com/SALIM-ALYASI/SecretsDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,10 +32,10 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
-      "ios": "12.1"
+      ios: "12.1"
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'TinyConstraintsalyasi', '~> 4.0.0'
+  s.dependency 'TinyConstraintsalyasi', '~> 5.0.0'
 end
